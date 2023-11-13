@@ -1,0 +1,10 @@
+String get userName => _userName;
+set userName(String userName) => _userName = userName;
+
+.runtimeType
+
+
+if (!mounted) return;
+ScaffoldMessenger.of(context).showSnackBar(
+    snackBarWidget(apiResponse.message, true),
+);
